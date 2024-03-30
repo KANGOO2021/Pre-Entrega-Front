@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FW-MOVIES</title>
+
+    <link rel="stylesheet" href="cac_movies_javaphp/css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="cac_movies_javaphp/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navegacion">
+            <a class="anclaLogo" href="#">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>WF-Movies</span>
+            </a>
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav"
+                        href="cac_movies_javaphp/pages/registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main">
+        <section  class="sectionPrincipal">
+            <h1 class="tituloPrincipal">Películas y series ilimitadas <br> en un solo lugar</h1>
+            <h2 class="subtituloPrincipal">Disfruta donde quieras. <br> Cancela en cualquier momento.</h2>
+            <a class="botonRegistrarse" href="cac_movies_javaphp/pages/registrarse.html">Registrate</a>
+        </section>
+        <section data-aos="fade-up" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000"
+            class="buscadorPrincipal">
+            <h2 class="tituloSection">¿Qué estas buscando para ver?</h2>
+            <form class="buscadorPeliculas">
+                <input class="inputBuscador" type="text" placeholder="Buscar..." />
+                <input class="botonBuscador" type="submit" value="Buscar">
+            </form>
+        </section>
+
+        <section data-aos="fade-up" data-aos-offset="400" data-aos-delay="100" data-aos-duration="1000"
+            class="peliculasTendencia">
+
+            <h3 class="tituloSection">Las películas más taquilleras de la historia</h3>
+            <div class="peliculas">
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/avatar.jpeg"
+                            title="Puesto 1: Avatar" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Avatar</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Vengadores-Endgame.jpg"
+                            title="Puesto 2: Vengadores Endgame" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Vengadores Endgame</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Avatar 2.jpg"
+                            title="Puesto 3: Avatar 2" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Avatar 2</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Titanic.jpg"
+                            title="Puesto 4: Titanic" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Titanic</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia"
+                            src="cac_movies_javaphp/assets/img2/Star Wars El despertar de la Fuerza.jpeg"
+                            title="Puesto 5: Star Wars - El despertar de la Fuerza" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Star Wars: El despertar de la Fuerza</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Vengadores Infinity War.jpg"
+                            title="Puesto 6: Vengadores - Infinity War" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Vengadores: Infinity War</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Spiderman-No-way-home.jpg"
+                            title="Puesto 7: Spider-Man - No Way Home" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Spider-Man: No Way Home</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Jurassic World.webp"
+                            title="Puesto 8: Jurassic World" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Jurassic World</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/El Rey León 2019.jpg"
+                            title="Puesto 9: El rey león II - El reino de Simba" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>El rey león II: El reino de Simba</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Los Vengadores.jpg"
+                            title="Puesto 10: Los Vengadores" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Los Vengadores</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Fast & Furious 7.jpg"
+                            title="Puesto 11: Rápidos y Furiosos 7" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Rápidos y Furiosos 7</h4>
+                        </div>
+                    </div>
+                </a>
+                <a href="cac_movies_javaphp/pages/detalle.html">
+                    <div class="pelicula">
+                        <img class="imgTendencia" src="cac_movies_javaphp/assets/img2/Top Gun Maverick.jpg"
+                            title="Puesto 12: Top Gun - Maverick" loading="lazy">
+                        <div class="tituloPelicula">
+                            <h4>Top Gun: Maverick</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button class="boton anterior">Anterior</button>
+            <button class="boton siguiente">Siguiente</button>
+        </section>
+        <hr>
+        <section data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000"
+            class="peliculasAclamadas">
+            <h3 class="tituloSection">Las sagas más populares</h3>
+            <div class="aclamadas">
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Matrix.jpeg" alt="Matrix" loading="lazy">
+                        <span>Matrix</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Star Wars.jpeg" alt="Star Wars" loading="lazy">
+                        <span>Star Wars</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/rocky.jpeg" alt="Rocky" loading="lazy">
+                        <span>Rocky</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Terminator.jpeg" alt="Terminator" loading="lazy">
+                        <span>Terminator</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/El señor de los anillos.jpeg" alt="El Señor de los Anillos" loading="lazy">
+                        <span>El Señor de los Anillos</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/The Fast & The Furious.png" alt="Rápidos y Furiosos" loading="lazy">
+                        <span>Rápidos y Furiosos</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Volver al Futuro.jpeg" alt="Volver al Futuro" loading="lazy">
+                        <span>Volver al Futuro</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Harry Potter.jpeg" alt="Harry Potter" loading="lazy">
+                        <span>Harry Potter</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Toy Story.jpeg" alt="Toy Story" loading="lazy"> 
+                        <span>Toy Story</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Batman.jpeg" alt="Batman" loading="lazy">
+                        <span>Batman</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Spider-Man.jpeg" alt="Spider-Man" loading="lazy">
+                        <span>Spider-Man</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Parque Jurásico.jpeg" alt="Parque Jurásico" loading="lazy">
+                        <span>Parque Jurásico</span>
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="cac_movies_javaphp/assets/img3/Star Trek.jpeg" alt="Star Trek" loading="lazy">
+                        <span>Star Trek</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="navegacion">
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Términos y condiciones</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Preguntas frecuentes</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+                <li class="listaItem"><a class="linkNav administradorPeliculas" href="">Administrador Peliculas</a></li>
+            </ul>
+        </nav>
+        <a href="#main" class="flechaArriba">
+            <img src="cac_movies_javaphp/assets/img/flecha-hacia-arriba.png" alt="ir arriba flecha">
+        </a>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
